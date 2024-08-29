@@ -153,6 +153,7 @@ const MultiSelectDropdown = ({
     setSearchValue(e.target.value);
   };
 
+  // To get the options in dropdown
   const getOptions = () => {
     if (!searchValue) {
       if (selectAll && selectAll.length > 0) {
